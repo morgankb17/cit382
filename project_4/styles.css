@@ -1,0 +1,54 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.grid-container {
+  height: 98vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 10% 35% 45%;
+}
+
+.title {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  text-align: center;
+}
+
+.DataList {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  text-align: center;
+}
+
+.DataInput {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  text-align: center;
+}
+.DataGraph {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+div.DataGraph div {
+  margin: auto;
+}
+
+div.DataGraph hr {
+  width: 100%;
+}
+
+.vl {
+  border-left: 6px solid green;
+  height: 500px;
+}

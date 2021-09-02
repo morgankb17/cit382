@@ -1,0 +1,47 @@
+.App {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 550;
+  text-align: center;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+/*
+html {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Vincenzo_Camuccini_-_La_morte_di_Cesare.jpg/1200px-Vincenzo_Camuccini_-_La_morte_di_Cesare.jpg');
+  background-position: center;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+
+body {
+  background: rgba(255, 255, 255, 0.65);
+}
+*/
+#topLine {
+  width: 500px;
+}
+
+#bottomLine {
+  width: 500px;
+}
+
+input {
+  margin-top: 10px;
+}
+
+/*
+#outputText {
+  background: rgb(255, 255, 255);
+  font-size: 13.5px;
+  border: 1px black;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+*/
+

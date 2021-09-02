@@ -1,0 +1,82 @@
+#generateButton {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+#editor {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  text-align: center;
+}
+
+#caption {
+  height: 75px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.viewMeme {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  text-align: center;
+}
+
+#editButton {
+  position: absolute;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  bottom: 0;
+  left: 45%;
+  transform: translateX(-50%);
+}
+
+#deleteButton {
+  position: absolute;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  bottom: 0;
+  left: 55%;
+  transform: translateX(-50%);
+}
+
+.fade-wrapper {
+  transition: opacity ease-in-out;
+}
+.fade-out {
+  opacity: 0;
+}
+.fade-in {
+  opacity: 1;
+}
+
+.flex-half {
+  flex-grow: 1;
+}
+
+.localTab {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.memeCreator {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.memeCreator img {
+  height: 100px;
+}

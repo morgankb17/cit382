@@ -1,0 +1,98 @@
+.grid-container {
+  font-family: sans-serif;
+  text-align: center;
+  display: grid;
+  position: relative;
+}
+
+.title {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  text-align: center;
+}
+
+.memesTitle {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  text-align: center;
+}
+
+.generatedMeme {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  width: 550px;
+  height: 300px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.generatedMeme img {
+  width: auto;
+  height: 100%;
+}
+#generateButton {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+#editor {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  text-align: center;
+}
+
+#caption {
+  height: 75px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.viewMeme {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  text-align: center;
+}
+
+#editButton {
+  position: absolute;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  bottom: 0;
+  left: 45%;
+  transform: translateX(-50%);
+}
+
+#deleteButton {
+  position: absolute;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  bottom: 0;
+  left: 55%;
+  transform: translateX(-50%);
+}
+
+.fade-wrapper {
+  transition: opacity ease-in-out;
+}
+.fade-out {
+  opacity: 0;
+}
+.fade-in {
+  opacity: 1;
+}

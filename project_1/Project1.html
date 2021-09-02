@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Project1.css">
+    <title>Caesar Cypher Encryption</title>
+</head>
+
+<body id="body">
+    <div id="input">
+        Cleartext: <input id="inputText" type="input" />&nbsp;
+        <button id="ClearButton">Clear</button>
+    </div>
+    <hr id="topLine" />
+    <div id="output">
+        Caesar Ciphertext: <span id="outputText"></span>
+    </div>
+    <form>
+        <div id="adjust">
+            <input id="shiftValue" class="user" type="number" value="2" min="0" max="30" onkeydown="return false"
+                oninput="slider.value=shiftValue.value" />&nbsp;
+            <input id="slider" class="user" type="range" min="0" max="30" value="2"
+                oninput="shiftValue.value=slider.value" />
+            &nbsp;&nbsp;Shift Left:&nbsp;<input id="checkbox" type="checkbox" checked />
+        </div>
+    </form>
+    <hr id="bottomLine" />
+    <div id="container"></div>
+    <script src="Project1.js"></script>
+</body>
+
+</html>

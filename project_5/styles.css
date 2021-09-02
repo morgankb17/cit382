@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Krona One");
+@import url("https://fonts.googleapis.com/css?family=Monda");
+@import url("https://fonts.googleapis.com/css?family=Nobile");
+@import url("https://fonts.googleapis.com/css?family=Open Sans");
+
+.grid-container {
+  font-family: Monda;
+  height: 98vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 10% 35% 45%;
+}
+
+.title {
+  font-family: Krona One;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  text-align: center;
+}
+
+.DataList {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.65);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 25px;
+}
+
+#list-title {
+  font-family: Nobile;
+  padding-right: 5px;
+}
+#list-buttons {
+  margin-bottom: 15px;
+}
+#clear {
+  margin-right: 10px;
+}
+#list {
+  padding: 1px 0px 1px 0px;
+}
+.DataInput {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.65);
+  margin-left: auto;
+  margin-right: 325px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 25px;
+}
+
+#entry-title {
+  font-family: Nobile;
+}
+
+#temp {
+  width: 35px;
+  padding: 0px 0px 0px 18px;
+}
+.DataGraph {
+  font-family: Open Sans;
+  font-size: 14px;
+  margin-top: 50px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+#chart {
+  background: rgba(255, 255, 255, 0.65);
+  margin: 0px 325px 0px 325px;
+  padding-top: 15px;
+  border-radius: 25px;
+}
+
+div.DataGraph div {
+  margin: auto;
+}
+
+div.DataGraph hr {
+  width: 100%;
+}
+
+.vl {
+  border-left: 6px solid green;
+  height: 500px;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background-image: url("https://www.wallpapertip.com/wmimgs/9-95302_terraria.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body {
+  background: rgba(255, 255, 255, 0.65);
+}
